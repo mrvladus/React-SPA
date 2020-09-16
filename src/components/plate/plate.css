@@ -1,0 +1,15 @@
+/* Plate component */
+.plate {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  background: var(--bg-col);
+  padding: 10vh 0;
+  min-height: 90vh;
+}
+.plate-img {
+  height: auto;
+  width: 40%;
+}

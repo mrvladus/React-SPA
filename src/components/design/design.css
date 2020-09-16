@@ -1,0 +1,21 @@
+/* Design component */
+.design {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background: var(--design-col);
+  color: var(--bg-col);
+  padding: 10vh 0vh;
+  min-height: 100vh;
+}
+.design-img {
+  height: auto;
+  width: 35%;
+}
+.design-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
